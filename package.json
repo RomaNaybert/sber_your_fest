@@ -1,0 +1,12 @@
+{
+  "name": "sber-festival",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Твой фестиваль — игра о планировании праздника",
+  "scripts": {
+    "test": "node --test tests/engine.test.mjs tests/planner.test.mjs tests/renderer.test.mjs tests/animation.test.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.58.0"
+  }
+}

@@ -1,0 +1,16 @@
+Local game font subsets (no runtime CDN requests)
+
+FestivalPlay Bold = Balsamiq Sans Bold 700, SIL OFL 1.1.
+Source: https://github.com/google/fonts/tree/main/ofl/balsamiqsans
+License: FONT_BALSAMIQ_OFL.txt
+File: font-balsamiq-700.woff2
+
+FestivalRound SemiBold = static weight 600 instance of Comfortaa, SIL OFL 1.1.
+Source: https://github.com/google/fonts/tree/main/ofl/comfortaa
+License: FONT_COMFORTAA_OFL.txt
+File: font-comfortaa-600.woff2
+
+Both fonts subset to Latin, Cyrillic, general punctuation and available currency/arrows.
+Modified subsets renamed FestivalPlay / FestivalRound to respect reserved font names.
+Full Russian alphabet including Ёё, digits and core punctuation verified through cmap.
+Build records and downloaded originals: output/fonts (outside game payload).
